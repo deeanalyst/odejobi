@@ -63,7 +63,7 @@
       themeButton.setAttribute("aria-label", theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
     }
   }
-  applyTheme(root.getAttribute("data-theme") || "light");
+  applyTheme(root.getAttribute("data-theme") || "dark");
 
   if (themeButton) {
     themeButton.addEventListener("click", function () {

@@ -17,7 +17,7 @@ const portfolioData = {
   github: "https://github.com/deeanalyst",
 
   /* CV: put your PDF in assets/documents/ and write its path here. */
-  resume: "assets/documents/resume.pdf",
+  resume: "assets/documents/Taiwo_Resume_Business_Analyst.pdf",
   resumeButtonText: "View CV",
 
   /* Contact form: your public Formspree endpoint. */

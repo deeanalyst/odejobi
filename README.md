@@ -4,13 +4,9 @@ A static portfolio website for Taiwo Michael Odejobi, Business Analyst.
 
 It is built with plain HTML, CSS and JavaScript. There is nothing to install and nothing to build: no Node.js, no npm, no React, no Next.js. Upload the files and the site works.
 
-## Before you publish: 3 things to replace
+## Before you publish: 1 thing to check
 
-| What | Where | Why |
-| --- | --- | --- |
-| **Your CV** | `assets/documents/resume.pdf` | The file there now is a placeholder page, not your CV. |
-| **Project thumbnails** | `assets/images/project-01.svg` and `project-02.svg` | These are generic illustrations. Swap in your own thumbnails. |
-| **Missing case study stage** | `projects/data-analysis-dashboards.html` | "Business impact" is hidden because no information was provided. |
+The "Business impact" stage of `projects/data-analysis-dashboards.html` is hidden because no information was provided. Add it if you have results to report (see "How to add a project").
 
 ## What's in the folder
 
@@ -26,7 +22,7 @@ business-analyst-portfolio/
 │   ├── js/data.js             Your contact details and links (edit this first)
 │   ├── js/script.js           Menu, theme switch, contact form
 │   ├── images/                Photo, project thumbnails, icons
-│   └── documents/resume.pdf   Your CV
+│   └── documents/             Your CV (Taiwo_Resume_Business_Analyst.pdf)
 └── projects/
     ├── health-tech-business-analysis.html   Case study 1
     └── data-analysis-dashboards.html        Case study 2
@@ -68,6 +64,7 @@ To edit a file on GitHub: click the file, click the pencil icon, make your chang
 | Long bio and headline figures | `index.html` | The `ABOUT` comment |
 | Skills | `index.html` | The `CORE COMPETENCIES` comment |
 | Experience | `index.html` | The `EXPERIENCE` comment |
+| Education and certification | `index.html` | The `EDUCATION AND CERTIFICATION` comment |
 | Projects | `index.html` | The `PROJECTS` comment |
 | Case study text | The files in `projects/` | Each stage has its own heading |
 | Google and link-preview text | `index.html` | The `SEO` comment at the top |
@@ -89,15 +86,15 @@ In `index.html`, copy one whole block from `<li class="tl-item reveal">` to its 
 Put images in `assets/images/`.
 
 - **Profile photo:** replace `profile.jpg` with a new file of the same name. A portrait shape (4:5) works best.
-- **Project thumbnails:** add your image, for example `project-01.jpg`, then in `index.html` change `assets/images/project-01.svg` to `assets/images/project-01.jpg`. Do the same in the matching case study page, where the path starts with `../`. A landscape shape (3:2, about 1200 × 800 pixels) works best.
+- **Project thumbnails:** replace `project-01.jpg` or `project-02.jpg` with a new file of the same name. Use a 16:9 shape (1600 × 900 pixels) so nothing is cropped. The same image appears on the project card and at the top of its case study.
 - Keep each image under about 300 KB so the site loads quickly. [squoosh.app](https://squoosh.app) can shrink them for free.
 
-## How to add your CV
+## How to update your CV
 
-1. Save your CV as a PDF named `resume.pdf`.
-2. Upload it to `assets/documents/`, replacing the placeholder.
+Your CV is `assets/documents/Taiwo_Resume_Business_Analyst.pdf`. Every **View CV** button opens it.
 
-To use a different file name, change the `resume` line in `assets/js/data.js`, for example `resume: "assets/documents/Taiwo-Odejobi-CV.pdf"`. Avoid spaces in the file name.
+- **Same file name:** upload the new PDF to `assets/documents/` with exactly the same name and it replaces the old one.
+- **Different file name:** upload it to `assets/documents/`, then change the `resume` line in `assets/js/data.js` to match, for example `resume: "assets/documents/My-New-CV.pdf"`. Avoid spaces in the file name.
 
 ## How to add a project
 
@@ -111,7 +108,7 @@ Each case study follows eight stages: Business problem, Objective, Approach, Ana
 
 Open `assets/css/style.css`. The colours are at the very top, under `1. DESIGN TOKENS`. The first group is the light theme and the second is the dark theme.
 
-The one you are most likely to change is `--accent`, which controls buttons, links and highlights. If you change it, change it in both themes and check that text is still easy to read.
+The site opens in the dark theme by default; visitors can switch with the sun/moon button. `--action` is the yellow of the buttons, and `--accent` is the green used for links and highlights. If you change one, change it in both themes and check that text is still easy to read.
 
 ## How to change fonts
 
