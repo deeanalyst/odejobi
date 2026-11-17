@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Abstract dashboard layout with charts and slicers">
+  <!-- Generic cover illustration with no real data. Replace with your own thumbnail (see README). -->
+  <rect width="1200" height="800" fill="#E4EDE9"/>
+  <g fill="#FFFFFF">
+    <rect x="70" y="70" width="230" height="660" rx="16"/>
+    <rect x="330" y="70" width="250" height="130" rx="16"/>
+    <rect x="610" y="70" width="250" height="130" rx="16"/>
+    <rect x="890" y="70" width="240" height="130" rx="16"/>
+    <rect x="330" y="230" width="530" height="500" rx="16"/>
+    <rect x="890" y="230" width="240" height="500" rx="16"/>
+  </g>
+  <g fill="#C9D8D2">
+    <rect x="100" y="105" width="110" height="12" rx="6"/>
+    <rect x="360" y="100" width="90" height="10" rx="5"/>
+    <rect x="640" y="100" width="90" height="10" rx="5"/>
+    <rect x="920" y="100" width="90" height="10" rx="5"/>
+    <rect x="360" y="262" width="150" height="12" rx="6"/>
+    <rect x="920" y="262" width="110" height="12" rx="6"/>
+  </g>
+  <g fill="#13201C">
+    <rect x="360" y="135" width="140" height="28" rx="8"/>
+    <rect x="640" y="135" width="110" height="28" rx="8"/>
+    <rect x="920" y="135" width="125" height="28" rx="8"/>
+  </g>
+  <g>
+    <rect x="100" y="150" width="170" height="44" rx="10" fill="#1B6B58"/>
+    <rect x="100" y="206" width="170" height="44" rx="10" fill="#EEF3F1"/>
+    <rect x="100" y="262" width="170" height="44" rx="10" fill="#EEF3F1"/>
+    <rect x="100" y="318" width="170" height="44" rx="10" fill="#1B6B58"/>
+    <rect x="100" y="374" width="170" height="44" rx="10" fill="#EEF3F1"/>
+    <rect x="100" y="430" width="170" height="44" rx="10" fill="#EEF3F1"/>
+  </g>
+  <g stroke="#E4EDE9" stroke-width="2">
+    <line x1="360" y1="400" x2="830" y2="400"/>
+    <line x1="360" y1="500" x2="830" y2="500"/>
+    <line x1="360" y1="600" x2="830" y2="600"/>
+    <line x1="360" y1="690" x2="830" y2="690" stroke="#C9D8D2"/>
+  </g>
+  <g fill="#1B6B58">
+    <rect x="385" y="470" width="44" height="220" rx="6"/>
+    <rect x="455" y="410" width="44" height="280" rx="6"/>
+    <rect x="525" y="520" width="44" height="170" rx="6"/>
+    <rect x="595" y="350" width="44" height="340" rx="6"/>
+    <rect x="665" y="320" width="44" height="370" rx="6" fill="#B4761A"/>
+    <rect x="735" y="500" width="44" height="190" rx="6"/>
+  </g>
+  <g>
+    <rect x="920" y="310" width="180" height="20" rx="10" fill="#1B6B58"/>
+    <rect x="920" y="350" width="140" height="20" rx="10" fill="#4E9C88"/>
+    <rect x="920" y="390" width="105" height="20" rx="10" fill="#8FC4B5"/>
+    <rect x="920" y="430" width="70" height="20" rx="10" fill="#C9D8D2"/>
+  </g>
+  <path d="M920 650 L965 610 L1010 630 L1055 560 L1100 520" fill="none" stroke="#13201C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
